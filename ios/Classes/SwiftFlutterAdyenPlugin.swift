@@ -129,7 +129,7 @@ extension SwiftFlutterAdyenPlugin: DropInComponentDelegate {
         let convertedString = String(data: jsonData!, encoding: String.Encoding.utf8)
         print(convertedString ?? "defaultvalue")
         self.mResult!(convertedString)
-
+        dismissAdyenController()
         return
     }
     
