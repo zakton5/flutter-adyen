@@ -17,7 +17,7 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `.symlinks/flutter/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
   - flutter_adyen (from `.symlinks/plugins/flutter_adyen/ios`)
 
 SPEC REPOS:
@@ -27,7 +27,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: ".symlinks/flutter/ios"
+    :path: ".symlinks/flutter/ios-release"
   flutter_adyen:
     :path: ".symlinks/plugins/flutter_adyen/ios"
 
@@ -39,4 +39,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3143ffc12c629c005bcae9cd5d61303d1ad4f900
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.2
